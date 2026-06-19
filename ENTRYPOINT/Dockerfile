@@ -1,4 +1,4 @@
 FROM almalinux:9
-RUN [ "ping", "google.com"]
-CMD [ "google.com" ]
+RUN [ "ping", "youtube.com"]
+CMD [ "youtube.com" ]
 ENTRYPOINT [ "ping" ]
