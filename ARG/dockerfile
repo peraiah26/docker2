@@ -1,5 +1,6 @@
 FROM almalinux:9
+ARG VERSION
 ARG COURSE="AWS" \
     TRAINER="PERAIAH"
-RUN echo "course: ${COURSE}, trainer: ${TRAINER}"
+RUN echo "course: ${COURSE}, trainer: ${TRAINER}, varsion: ${VARSION}"
 CMD ["sleep", "100"]
