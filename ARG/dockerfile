@@ -1,0 +1,5 @@
+FROM almalinux:9
+ARG COURSE="AWS" \
+    TRAINER="PERAIAH"
+RUN echo "course: ${COURSE}, trainer: ${TRAINER}"
+CMD ["sleep", "100"]
