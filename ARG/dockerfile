@@ -1,6 +1,6 @@
 ARG VERSION
-FROM almalinux:${VARSION:-9}
+FROM almalinux:${VERSION:-9}
 ARG COURSE="AWS" \
     TRAINER="PERAIAH"
-RUN echo "course: ${COURSE}, trainer: ${TRAINER}, varsion: ${VARSION}"
+RUN echo "course: ${COURSE}, trainer: ${TRAINER}, version: ${VERSION}"
 CMD ["sleep", "100"]
